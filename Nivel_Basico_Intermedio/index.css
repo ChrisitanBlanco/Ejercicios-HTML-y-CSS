@@ -1,15 +1,16 @@
-@media (max-width: 600px){
-    
-}
+
 
 html{
     font-size: 10px;
 }
 
 body{
-    margin: 0;
+     margin: 0;
      background-color: #F5F7FA;
-     padding: 0;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     min-height:100vh;
     
 }
 
@@ -19,8 +20,6 @@ body{
     text-align: center;
     height: 500px;
     width: 400px;
-    margin-left: 500px;
-    margin-top: 100px;
     border-radius: 15px;
     box-shadow: 0px 0px 4px 0px #0006;
     
@@ -28,6 +27,7 @@ body{
 
 .card:hover{
     transform: translateY(-5px);
+    transition: 0.3s;
 }
 
 .card h2{
@@ -78,37 +78,17 @@ body{
      border-radius: 5px;
      color: #2563EB;
      transition: 1s;
-     
 }
 
-#html:hover{
-    width: 40px;
-    background: rgb(43, 96, 113);
-    color: #fff;
-}
-
-.card #Habilities #css{
-     background-color: rgb(194, 240, 255);
+.card .skills{
+    background-color: rgb(194, 240, 255);
      padding: 10px 20px 10px 20px;
      border-radius: 5px;
      color: #2563EB;
 }
 
-#css:hover{
-    width: 40px;
-    background: rgb(43, 96, 113);
-    color: #fff;
-}
-
-.card #Habilities #js{
-     background-color: rgb(194, 240, 255);
-     padding: 10px 20px 10px 20px;
-     border-radius: 5px;
-     color: #2563EB;
-}
-#js:hover{
-    width: 60px;
-    background: rgb(43, 96, 113);
+.skills:hover{
+    background-color: #2563EB;
     color: #fff;
 }
 
@@ -149,6 +129,15 @@ body{
      color: #fff;
      text-decoration: none;
      text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5px;
+     transition: .3s;
+}
+
+.card #Links a:hover{
+    transform: translateY(-3px);
 }
 
 .card #Links #Git{
@@ -161,3 +150,28 @@ body{
     font-size: 15px;
 }
 
+@media (max-width: 600px){
+
+    .card{
+        height: 450px;
+    }
+
+    .card h2{
+    font-size: 2.1em;
+}
+
+.card .Info p{
+    font-size: 1.3em;
+    color: #6B7280;
+}
+
+.card h2 span{
+    font-size: 15px;
+    font-weight: 200;
+    color: #2563EB;
+}
+
+#links{
+        flex-direction:column;
+    }
+}
