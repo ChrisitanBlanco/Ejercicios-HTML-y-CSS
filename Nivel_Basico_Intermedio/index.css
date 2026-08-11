@@ -1,0 +1,163 @@
+@media (max-width: 600px){
+    
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+     background-color: #F5F7FA;
+     padding: 0;
+    
+}
+
+.card{
+    background-color: #FFFF;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 0px #0006;
+    
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card h2{
+    font-size: 2.5em;
+}
+
+.card h2 span{
+    font-size: 20px;
+    font-weight: 200;
+    color: #2563EB;
+}
+
+.Profile{
+    width: 120px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.Info{
+    margin: 0 30px 0 30px;
+}
+
+.card .Info p{
+    font-size: 1.5em;
+    color: #6B7280;
+}
+
+.card #Habilities{
+    margin-top: 20px;
+}
+
+.card .Listas{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+}
+
+.card #Habilities #html{
+     background: rgb(194, 240, 255);
+     padding: 10px 20px 10px 20px;
+     border-radius: 5px;
+     color: #2563EB;
+     transition: 1s;
+     
+}
+
+#html:hover{
+    width: 40px;
+    background: rgb(43, 96, 113);
+    color: #fff;
+}
+
+.card #Habilities #css{
+     background-color: rgb(194, 240, 255);
+     padding: 10px 20px 10px 20px;
+     border-radius: 5px;
+     color: #2563EB;
+}
+
+#css:hover{
+    width: 40px;
+    background: rgb(43, 96, 113);
+    color: #fff;
+}
+
+.card #Habilities #js{
+     background-color: rgb(194, 240, 255);
+     padding: 10px 20px 10px 20px;
+     border-radius: 5px;
+     color: #2563EB;
+}
+#js:hover{
+    width: 60px;
+    background: rgb(43, 96, 113);
+    color: #fff;
+}
+
+.card #Habilities #git{
+     background-color: rgb(194, 240, 255);
+     padding: 10px 20px 10px 20px;
+     border-radius: 5px;
+     color: #2563EB;
+}
+#git:hover{
+    width: 50px;
+    background: rgb(43, 96, 113);
+    color: #fff;
+}
+
+
+.card #Links{
+    margin-top: 25px;
+}
+
+.card #Links img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.card #Links #Linkedin{
+    background-color: #0072B1;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.card #Links a{
+     color: #fff;
+     text-decoration: none;
+     text-align: center;
+}
+
+.card #Links #Git{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+}
+
