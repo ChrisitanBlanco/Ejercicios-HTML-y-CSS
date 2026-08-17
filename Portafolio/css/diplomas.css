@@ -1,0 +1,57 @@
+:root {
+    --primary: #000080;
+    --secundary: #0047AB;
+    --terciary: #106083;
+    --neutro: #6D8196;
+    --card: #1E293B;
+    --text: #F8FAFC;
+    --text-secondary: #CBD5E1;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at top left,
+            rgba(56, 189, 248, 0.15),
+            transparent 30%),
+        radial-gradient(circle at bottom right,
+            rgba(37, 99, 235, 0.15),
+            transparent 35%),
+        linear-gradient(135deg,
+            #0F172A,
+            #111827,
+            #1E293B);
+}
+
+.header-diplomes{
+    padding: 30px;
+    text-align: center;
+}
+
+.diplomes-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.diplomes-img img{
+    max-width: 400px;
+    max-height: 210px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 1px #fff);
+}
+
+.button{
+   display: flex;
+   justify-content: center;
+}
+
+.button-regresar{
+    padding: 20px;
+    background: var(--terciary);
+    color: var(--text-secondary);
+    border: none;
+    margin-bottom: 40px;
+}
